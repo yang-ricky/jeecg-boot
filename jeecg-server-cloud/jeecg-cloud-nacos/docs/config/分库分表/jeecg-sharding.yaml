@@ -4,9 +4,9 @@ spring:
       names: ds0
       ds0:
         driverClassName: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://jeecg-boot-mysql:3306/jeecg-boot?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+        url: jdbc:mysql://106.14.148.37:3306/jeecg-boot?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
         username: root
-        password: root
+        password: 111111
         type: com.alibaba.druid.pool.DruidDataSource
     props:
       sql-show: true
